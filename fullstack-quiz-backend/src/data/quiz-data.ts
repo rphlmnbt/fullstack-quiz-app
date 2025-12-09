@@ -1,4 +1,4 @@
-import { QuizData } from '../types/quiz';
+import { QuizData } from '../../types/quiz';
 
 const quizData: QuizData = {
   questions: [

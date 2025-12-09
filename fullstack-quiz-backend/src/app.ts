@@ -1,4 +1,5 @@
 import { Hono } from 'hono';
+import quizRoutes from './routes/quiz.routes';
 
 const app = new Hono();
 
@@ -14,5 +15,7 @@ app.use('*', async (c, next) => {
   }
   await next();
 });
+
+app.route('/api', quizRoutes);
 
 export default app;
