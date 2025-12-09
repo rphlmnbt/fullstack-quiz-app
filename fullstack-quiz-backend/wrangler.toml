@@ -1,4 +1,5 @@
 name = "quiz-api"
 main = "src/index.ts"
-compatibility_date = "2025-01-01"
+compatibility_date = "2025-12-09"
+# For Node.js compatibility if needed:
 compatibility_flags = ["nodejs_compat"]
